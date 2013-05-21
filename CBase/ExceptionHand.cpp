@@ -46,7 +46,7 @@ long CExceptionHand::ApplicationCrashHander( EXCEPTION_POINTERS *pException )
 	return EXCEPTION_CONTINUE_SEARCH/*EXCEPTION_EXECUTE_HANDLER*/;
 }
 
-void CExceptionHand::SetHandLe( char* lpStrFilePath )
+void CExceptionHand::SetHandLe(const char* lpStrFilePath )
 {
 	strFilePath = lpStrFilePath;
 	SetUnhandledExceptionFilter((LPTOP_LEVEL_EXCEPTION_FILTER) CExceptionHand::ApplicationCrashHander);
