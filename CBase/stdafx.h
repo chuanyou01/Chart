@@ -9,6 +9,8 @@
 
 #include <stdio.h>
 #include <tchar.h>
+#include <assert.h>
+
 #include <windows.h>
 #include <string>
 #include <list>
