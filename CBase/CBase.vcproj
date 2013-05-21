@@ -171,11 +171,43 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\Buffer.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CBase.cpp"
 				>
 			</File>
 			<File
+				RelativePath=".\Communication.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Config.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\DataCode.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\DebugMsg.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Email.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\ExceptionHand.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Log.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MessageQueue.cpp"
 				>
 			</File>
 			<File
@@ -205,7 +237,39 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
+				RelativePath=".\Buffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Communication.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Config.h"
+				>
+			</File>
+			<File
+				RelativePath=".\DataCode.h"
+				>
+			</File>
+			<File
+				RelativePath=".\DebugMsg.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Email.h"
+				>
+			</File>
+			<File
 				RelativePath=".\ExceptionHand.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Log.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MessageQueue.h"
 				>
 			</File>
 			<File
