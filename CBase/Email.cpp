@@ -319,17 +319,17 @@ bool CEmail::SendTextBody(SOCKET &sock)
 
 bool CEmail::SendFileBody(SOCKET &sock)  
 {  
-	int i;  
 	char* filePath;  
 	int rt;  
 	int len;  
 	int pt=0;  
 	char fileName[128];  
-	for(i=0;i<m_pcFilePathList.GetCount();i++)  
-	{  
+	for (list<char*>::iterator it = m_pcFilePathList.begin();
+		it!=m_pcFilePathList.end(); it++)
+	{
 		pt=0;  
 		memset(fileName,0,128);  
-		filePath=m_pcFilePathList.GetAt(m_pcFilePathList.FindIndex(i));  
+		filePath= *it;
 		len=GetFileData(filePath);  
 		GetFileName(fileName,filePath);  
 
@@ -352,8 +352,7 @@ bool CEmail::SendFileBody(SOCKET &sock)
 		{  
 			delete [] m_pcFileBuff;  
 		}  
-	}  
-
+	}
 	return true;  
 }  
 
