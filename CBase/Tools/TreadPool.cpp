@@ -1,6 +1,6 @@
 #include "StdAfx.h"
  #include "TreadPool.h"
-#ifdef WIN_2008 
+//#ifdef WIN_2008 
 
 CTreadPool::CTreadPool(void)
 {
@@ -67,4 +67,4 @@ BOOL CTreadPool::IsSysPool()
 	return (m_pTp_callback_environ == NULL);
 }
 
-#endif
+//#endif

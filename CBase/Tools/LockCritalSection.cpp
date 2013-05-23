@@ -1,5 +1,6 @@
 #include "StdAfx.h"
 #include "LockCritalSection.h"
+#include "MCriticalSectioin.h"
 
 
 CLockCriticalSection::CLockCriticalSection( CMCriticalSectioin *mCriticalSection )

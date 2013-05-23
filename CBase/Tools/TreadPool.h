@@ -4,7 +4,7 @@
 
 #ifndef _TREHAD_POOL_
 #define  _TREHAD_POOL_
-#ifdef WIN_2008 
+//#ifdef WIN_2008 
 
 
 
@@ -28,4 +28,4 @@ private:
 	int			m_nMinThreads;
 };
 #endif
-#endif
+//#endif
