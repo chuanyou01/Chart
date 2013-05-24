@@ -297,6 +297,42 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
+		<Filter
+			Name="Tools"
+			>
+			<File
+				RelativePath=".\Tools\CurSysInfo.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\CurSysInfo.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\LockCritalSection.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\LockCritalSection.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\MCriticalSectioin.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\MCriticalSectioin.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\TreadPool.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Tools\TreadPool.h"
+				>
+			</File>
+		</Filter>
 		<File
 			RelativePath=".\ReadMe.txt"
 			>
