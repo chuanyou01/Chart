@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<control>
+  <panel></panel>
+  <value type="int" default="">
+    <select id="23">label</select>
+    <select id="12">label</select>
+    <select id="34">label</select>
+  </value> <!-- type =[int| text | time | list| check ]  -->
+</control>
