@@ -5,5 +5,23 @@
     <select id="23">label</select>
     <select id="12">label</select>
     <select id="34">label</select>
-  </value> <!-- type =[int| text | time | list| check ]  -->
+  </value> <!-- type =[int| text | time | selectid| check ]  -->
+  <list>
+    <head>
+      <item label="sd" align="left" menu="menuid" sort="up|down|none"></item>
+    </head>
+    <datas>
+      <item label="sd" type="text" udata="r.34" icon="oisd"></item>
+    </datas>
+  </list>
+  <tree>
+    <item label="1" icon="13" udata="">
+      <item></item>
+      <item></item>
+    </item>
+  </tree>
+  <menu menuid="23">
+    <item type="text | seprerate | menu" icon="icon" label="show"></item>
+    <item type="text | seprerate | menu" icon="icon" label="show"></item>
+  </menu>
 </control>
