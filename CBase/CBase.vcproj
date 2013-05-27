@@ -189,7 +189,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Connect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ConnectPool.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\DataCode.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\DB_OP.cpp"
 				>
 			</File>
 			<File
@@ -255,7 +267,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Connect.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ConnectPool.h"
+				>
+			</File>
+			<File
 				RelativePath=".\DataCode.h"
+				>
+			</File>
+			<File
+				RelativePath=".\DB_OP.h"
 				>
 			</File>
 			<File
@@ -264,6 +288,10 @@
 			</File>
 			<File
 				RelativePath=".\Email.h"
+				>
+			</File>
+			<File
+				RelativePath=".\EnumDefine.h"
 				>
 			</File>
 			<File

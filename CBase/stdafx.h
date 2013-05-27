@@ -15,6 +15,7 @@
 #include <string>
 #include <list>
 #include <fstream>
+#include "EnumDefine.h"
 
 using namespace std;
 
