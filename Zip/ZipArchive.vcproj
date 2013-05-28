@@ -4,10 +4,6 @@
 	Version="9.00"
 	Name="ZipArchive"
 	ProjectGUID="{A51CF340-B0EA-4C9B-A2FA-4D7487692EF5}"
-	SccProjectName="SAK"
-	SccAuxPath="SAK"
-	SccLocalPath="SAK"
-	SccProvider="SAK"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="131072"
 	>

@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataBase", "..\DataBase\Dat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipArchive", "..\Zip\ZipArchive.vcproj", "{A51CF340-B0EA-4C9B-A2FA-4D7487692EF5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UI", "..\UI\UI.vcproj", "{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Base_r|Win32 = Base_r|Win32
@@ -130,6 +132,40 @@ Global
 		{A51CF340-B0EA-4C9B-A2FA-4D7487692EF5}.Release|Win32.Build.0 = Release|Win32
 		{A51CF340-B0EA-4C9B-A2FA-4D7487692EF5}.Release-MT|Win32.ActiveCfg = Release-MT|Win32
 		{A51CF340-B0EA-4C9B-A2FA-4D7487692EF5}.Release-MT|Win32.Build.0 = Release-MT|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Base_r|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Base_r|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug MFC Static|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug MFC Static|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug STL Unicode|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug STL Unicode|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug STL|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug STL|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug Unicode|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug Unicode|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Debug|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.EN_Debug|Win32.ActiveCfg = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.EN_Debug|Win32.Build.0 = Debug|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release DLL|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release MFC Static|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release MFC Static|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release STL Unicode|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release STL Unicode|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release STL|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release STL|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release Unicode DLL|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release Unicode DLL|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release Unicode MFC Static|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release Unicode MFC Static|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release Unicode|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release Unicode|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release|Win32.Build.0 = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release-MT|Win32.ActiveCfg = Release|Win32
+		{AB8CD8F7-4050-4BED-8C30-FDBACC2B7507}.Release-MT|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
