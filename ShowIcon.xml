@@ -1,11 +1,30 @@
 <?xml version="1.0"?>
-<control>
-  <panel></panel>
+<main visible="true" state="1|2|3" left="0" top="23" width="200" height="300" bkimg=".\recloud.img" bkimgid="23" bkColor="">
+  <!-- state 1 minmize 2 maxmize 3 close 4 fullscreen-->
+  <trayIcon visible="" count="3" onclick="" onrclick="">
+    <item id="1">red.ico</item>
+    <item id="2">blue.ico</item>
+    <item id="3">free.icon</item>
+  </trayIcon>
+  <head bkimg="" transparent="100" label="" height="">
+    <tab label="" showclose="true" imgd="" imgn="" imgo="" left="" width="" >
+      <btn imgd="" imgn="" imgo="" id="close"></btn>
+    </tab>
+    <btn imgd="" imgn="" imgo="" id="1" left="" top="" width="" height=""></btn>
+    <btn imgd="" imgn="" imgo="" id="2"></btn>
+    <btn imgd="" imgn="" imgo="" id="3"></btn>
+  </head>
+  <body height="" >
+  <panel>
+
+  </panel>
+  <panel>
   <value type="int" default="">
     <select id="23">label</select>
     <select id="12">label</select>
     <select id="34">label</select>
-  </value> <!-- type =[int| text | time | selectid| check ]  -->
+  </value>
+  <!-- type =[int| text | time | selectid| check ]  -->
   <list>
     <head>
       <item label="sd" align="left" menu="menuid" sort="up|down|none"></item>
@@ -20,8 +39,10 @@
       <item></item>
     </item>
   </tree>
-  <menu menuid="23">
+  </panel>
+  </body>
+  <menu menuid="0" label="begin" visible="true"><!-- main menu-->
     <item type="text | seprerate | menu" icon="icon" label="show"></item>
     <item type="text | seprerate | menu" icon="icon" label="show"></item>
   </menu>
-</control>
+</main>

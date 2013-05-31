@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1369708577078" ID="ID_1585600468" MODIFIED="1369710124796" TEXT="UI">
+<node CREATED="1369708577078" ID="ID_1585600468" MODIFIED="1369983255343" TEXT="UI">
 <node CREATED="1369708587234" ID="ID_1499323557" MODIFIED="1369709962875" POSITION="right" TEXT="z_index">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -14,8 +14,7 @@
       o&#20026;&#24403;&#21069;&#65292; n+&#25353;&#22823;&#23567;&#25490;&#21015;&#65292; -1 &#20026;&#38544;&#34255;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1369708600562" ID="ID_1625696306" MODIFIED="1369708610812" TEXT="-1=hide"/>
 <node CREATED="1369708611421" ID="ID_1936801633" MODIFIED="1369708624156" TEXT="0=current"/>
 <node CREATED="1369708624421" ID="ID_1771275714" MODIFIED="1369708703765" TEXT="&gt;0(n+) index"/>
@@ -38,8 +37,7 @@
       g._status.subshow()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1369708737453" ID="ID_427138685" MODIFIED="1369708738890" TEXT="hide"/>
@@ -66,7 +64,7 @@
 </node>
 <node CREATED="1369710252671" ID="ID_1062861447" MODIFIED="1369710263859" POSITION="left" TEXT="type manage"/>
 <node CREATED="1369710264796" ID="ID_1538787687" MODIFIED="1369710269875" POSITION="left" TEXT="xmparser"/>
-<node CREATED="1369710281562" ID="ID_123836889" MODIFIED="1369710286015" POSITION="left" TEXT="builder">
+<node CREATED="1369710281562" ID="ID_123836889" MODIFIED="1369983257281" POSITION="left" TEXT="builder">
 <node CREATED="1369710928734" ID="ID_396767020" MODIFIED="1369710934656" TEXT="ref-&gt; xmp parser"/>
 <node CREATED="1369710905656" ID="ID_249619029" MODIFIED="1369710913578" TEXT="ref-&gt; type manage"/>
 <node CREATED="1369710291359" ID="ID_777024980" MODIFIED="1369710298375" TEXT="builder mainpage"/>
