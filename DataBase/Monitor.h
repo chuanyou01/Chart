@@ -7,4 +7,7 @@ class Monitor :
 public:
 	Monitor(void);
 	virtual ~Monitor(void);
+
+
 };
+
