@@ -205,10 +205,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\DebugMsg.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\Email.cpp"
 				>
 			</File>
@@ -280,10 +276,6 @@
 			</File>
 			<File
 				RelativePath=".\DB_OP.h"
-				>
-			</File>
-			<File
-				RelativePath=".\DebugMsg.h"
 				>
 			</File>
 			<File

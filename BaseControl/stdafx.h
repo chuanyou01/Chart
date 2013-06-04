@@ -12,3 +12,19 @@
 
 
 // TODO: 在此处引用程序需要的其他头文件
+
+#include <windows.h>
+#include <string>
+#include <map>
+#include <assert.h>
+#include <tchar.h>
+
+#ifndef _DEBUG
+#define NDEBUG
+#endif
+
+using namespace std;
+#include "debugmsg.h"
+#include "chardefine.h"
+#include "macrodefine.h"
+//

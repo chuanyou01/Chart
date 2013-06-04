@@ -20,7 +20,7 @@
 			Name="Debug|Win32"
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="4"
+			ConfigurationType="2"
 			CharacterSet="1"
 			>
 			<Tool
@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="..\Include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -59,10 +60,14 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLinkerTool"
+				OutputFile="..\lib\$(ProjectName).dll"
 			/>
 			<Tool
 				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
 			/>
 			<Tool
 				Name="VCXDCMakeTool"
@@ -72,6 +77,9 @@
 			/>
 			<Tool
 				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -153,6 +161,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CtrlState.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Include\debugmsg.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.cpp"
 				>
 				<FileConfiguration
@@ -172,6 +188,14 @@
 					/>
 				</FileConfiguration>
 			</File>
+			<File
+				RelativePath=".\TypeControl.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TypeInfo.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Í·ÎÄ¼þ"
@@ -183,11 +207,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CtrlState.h"
+				>
+			</File>
+			<File
+				RelativePath="..\Include\debugmsg.h"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.h"
 				>
 			</File>
 			<File
 				RelativePath=".\targetver.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TypeControl.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TypeInfo.h"
 				>
 			</File>
 		</Filter>

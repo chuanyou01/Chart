@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="..\BaseControl;..\Include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -60,7 +61,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="BaseControl.lib"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\Lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"

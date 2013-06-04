@@ -1,20 +1,35 @@
 #pragma once
 
-class CControl
+class CTypeInfo;
+class _DLL_DEC CControl
 {
 public:
 	CControl(void);
 	virtual ~CControl(void);
 
-	virtual void Draw()=0;
+	virtual void Draw();
 
-	virtual void OnMouse(CControl* pObj, int nEvent)=0;
+	virtual void OnMouse(CControl* pObj, int nEvent);
 
-	virtual void OnLButton(CControl* pObj, int nEvent )=0;
+	virtual void OnLButton(CControl* pObj, int nEvent );
 
-	virtual void OnRButton(CControl* pObj, int nEvent)=0;
+	virtual void OnRButton(CControl* pObj, int nEvent);
 
-	virtual string GetType()=0;
+	virtual wchar_t* GetType();
+	
+	CControl* Clone() ;
 
-	virtual CControl* Clone()=0;
+	virtual bool RegisterControl() ;
+
+	bool Load(wchar_t* pXmlBuffer);
+
+private:
+	HDC		     m_hDC;
+	CTypeInfo*	 m_typeInfo;
+	int			 m_nId;
+
+	Rect		m_rect;
+	DWORD		m_dwBkColor;
+	wchar_t*	m_pBckImg;
+	bool		m_visable;
 };

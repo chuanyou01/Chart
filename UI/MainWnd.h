@@ -1,8 +1,8 @@
 #pragma once
 
-class CMainWnd
+class CMainWnd: CControl
 {
 public:
 	CMainWnd(void);
-	~CMainWnd(void);
+	virtual ~CMainWnd(void);
 };

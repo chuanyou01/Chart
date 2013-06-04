@@ -18,4 +18,14 @@
 #include <tchar.h>
 
 
+#define _DLL_IMPORT
+#include "chardefine.h"
+#include "macrodefine.h"
+
+
+
+#include "Control.h"
+
+
+
 // TODO: 在此处引用程序需要的其他头文件
