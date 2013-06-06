@@ -28,7 +28,7 @@ private:
 	CTypeInfo*	 m_typeInfo;
 	int			 m_nId;
 
-	Rect		m_rect;
+	RECT		m_rect;
 	DWORD		m_dwBkColor;
 	wchar_t*	m_pBckImg;
 	bool		m_visable;

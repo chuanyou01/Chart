@@ -3,11 +3,20 @@
 
 CCtrlState::CCtrlState(void)
 {
+	
 }
 
 CCtrlState::~CCtrlState(void)
 {
+	
 }
+
+void CCtrlState::Init()
+{
+
+}
+
+
 
 bool CCtrlState::Show()
 {
@@ -23,3 +32,4 @@ void CCtrlState::Hide()
 {
 
 }
+

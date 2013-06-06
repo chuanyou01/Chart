@@ -15,6 +15,9 @@
 
 #include <windows.h>
 #include <string>
+#include <queue>
+#include <deque>
+#include <vector>
 #include <map>
 #include <assert.h>
 #include <tchar.h>

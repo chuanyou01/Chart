@@ -3,4 +3,16 @@
 
 const int _MAX_NAME_LENGTH = 128;
 
+enum enum_zidnex
+{
+	TOPMOST = 10000,
+
+	NORMAIL = 0,
+
+	HIDE = -1,
+
+	BOTTOMMOST= -10000,
+
+};
+
 #endif
