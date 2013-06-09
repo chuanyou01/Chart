@@ -1,6 +1,7 @@
 #pragma once
 
 class CTypeInfo;
+class CTypeControl;
 class _DLL_DEC CControl
 {
 public:
@@ -15,13 +16,16 @@ public:
 
 	virtual void OnRButton(CControl* pObj, int nEvent);
 
-	virtual wchar_t* GetType();
+	wchar_t* GetType();
 	
 	CControl* Clone() ;
 
 	virtual bool RegisterControl() ;
 
 	bool Load(wchar_t* pXmlBuffer);
+
+	void Show();
+	void Hide();
 
 private:
 	HDC		     m_hDC;
@@ -31,5 +35,13 @@ private:
 	RECT		m_rect;
 	DWORD		m_dwBkColor;
 	wchar_t*	m_pBckImg;
-	bool		m_visable;
+
+
+	bool		m_bvisable;
+	int			m_nZindex;
+public:
+	CTypeControl* GetManage();
+	void RealseManage();
+	static CTypeControl*	m_pManage;
+
 };

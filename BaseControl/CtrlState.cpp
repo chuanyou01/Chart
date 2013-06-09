@@ -20,7 +20,11 @@ void CCtrlState::Init()
 
 bool CCtrlState::Show()
 {
+	bool bRet = false;
 
+
+
+	return bRet;
 }
 
 void CCtrlState::SubShow()

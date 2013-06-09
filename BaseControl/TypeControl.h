@@ -18,3 +18,5 @@ public:
 private:
 	map<wchar_t*, CControl*>	m_mapCtl;
 };
+
+

@@ -3,6 +3,9 @@
 
 #include "stdafx.h"
 #include "UI.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 #define MAX_LOADSTRING 100
 
@@ -28,6 +31,22 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
  	// TODO: 在此放置代码。
 	MSG msg;
 	HACCEL hAccelTable;
+
+	char pTmp[] = "1234567890";
+	pTmp[3] = '9';
+
+	cout<<pTmp<<endl;
+
+
+	string strTmp;
+	strTmp.append(pTmp, 3);
+	//strTmp.append('\0');
+	cout<<strTmp<<endl;
+
+
+	string strTmp1;
+	strTmp1.append(pTmp, 3);
+	cout<<strTmp1<<endl;
 
 	// 初始化全局字符串
 	LoadString(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
