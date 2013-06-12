@@ -22,18 +22,18 @@ public:
 
 	virtual bool RegisterControl() ;
 
-	bool Load(wchar_t* pXmlBuffer);
+	virtual bool Load(wchar_t* pXmlBuffer);
 
 	void Show();
 	void Hide();
 
-private:
-	HDC		     m_hDC;
+protected:
 	CTypeInfo*	 m_typeInfo;
 	int			 m_nId;
 
 	RECT		m_rect;
 	DWORD		m_dwBkColor;
+	DWORD		m_dwFrameColor;
 	wchar_t*	m_pBckImg;
 
 

@@ -7,6 +7,8 @@ CTypeControl* CControl::m_pManage = NULL;
 
 CControl::CControl(void)
 :m_typeInfo(NULL)
+,m_dwBkColor(0x1D1D1D)
+,m_dwFrameColor(0x3B3B3B)
 {
 	
 }

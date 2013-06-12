@@ -15,4 +15,5 @@ enum enum_zidnex
 
 };
 
+#define MAX_LOADSTRING 100
 #endif

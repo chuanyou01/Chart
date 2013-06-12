@@ -21,6 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
+			UseOfMFC="0"
 			CharacterSet="1"
 			>
 			<Tool
@@ -61,7 +62,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="..\lib\$(ProjectName).dll"
+				OutputFile="..\bin\$(ProjectName).dll"
 			/>
 			<Tool
 				Name="VCALinkTool"
